@@ -1,0 +1,20 @@
+{
+    "name": "root/tp_final",
+    "authors": [
+        {
+            "name": "Extreeeme",
+            "email": "martindcontact@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^3.3",
+        "facebook/graph-sdk" : "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "vendor/core/",
+            "App\\": "vendor/app/"
+        }
+    }
+
+}
